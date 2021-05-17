@@ -8,7 +8,7 @@ function HistoryDisplay({history}) {
         <div className={styles.historyContainer}>
             <div className={styles.containerTop}>
                 <p className={styles.textContent}>History</p>
-                <img src='../../history.svg' alt='history' className={styles.historyIcon }/>
+                <img src='https://pic.onlinewebfonts.com/svg/img_530089.png' className={styles.historyIcon}/>
             </div>
             <ul>
             {!!history.length && history.map((item, i)=>(
