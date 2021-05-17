@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+label{
+    margin: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+input[type="radio"]{
+    display: none;
+}
+input:checked + span{
+    background-color: orange;
+    /* border:1px solid black; */
+    color:white;
+    padding: 2px;
+    border-radius: 3px;
+}
+input + span:hover{
+    cursor: pointer;
+}
+
+.radioContainer{
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.textArea{
+    width: 36rem;
+    height:12em;
+    border-radius: 8px;
+}
+
+.urlInput{
+    height:1.5em;
+    width:40em;
+}
+.submitButton{
+    background-color: rgb(26, 126, 249);
+    color: white;
+    border-radius: 4px;
+    border:none;
+    height:1.5rem;
+    cursor: pointer;
+}

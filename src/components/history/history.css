@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed:wght@400;700&display=swap');
+
+li{
+    list-style: none;
+    font-family: 'Lato'
+}
+.historyContainer{
+    background-color: rgb(240, 240, 240);
+}
+.containerTop{
+    height: 2em;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 1px solid rgb(65, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historyIcon{
+    height:1em;
+    margin-left: 1em;
+}
