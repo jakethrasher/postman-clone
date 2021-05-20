@@ -5,7 +5,7 @@ export const getData = async (url) =>{
         if(!url) return 'Enter a Valid URL'
         const {body} = await request
             .get(url)
-        console.log(body)
+
         return JSON.stringify(body, null, 2);
         
     } catch (error) {

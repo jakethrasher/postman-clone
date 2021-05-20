@@ -10,7 +10,7 @@ function HistoryDisplay({history}) {
                 <p className={styles.textContent}>History</p>
                 <img src='https://pic.onlinewebfonts.com/svg/img_530089.png' className={styles.historyIcon}/>
             </div>
-            <ul>
+            <ul aria-label="requests">
             {!!history.length && history.map((item, i)=>(
                 <li key={`${i}-${item.method}-${item.url}`}>
                     <span>{item.method} </span>

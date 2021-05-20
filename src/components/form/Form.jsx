@@ -11,7 +11,7 @@ function Form({
     reqBody,
 }) {
     return (
-        <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
             <div>
                 <label>
                     <input
@@ -22,18 +22,20 @@ function Form({
                         onChange={handleInputChange} 
                         value={url}/>
                 </label>
-                <button className={styles.submitButton}>GO</button>
+                <button className={styles.submitButton} aria-label="go-button">GO</button>
             </div>
            
             <div className={styles.radioContainer}>
                 <label className={styles.radioLabel}>
                     
                     <input 
+                        data-testid="get-button"
                         type="radio" 
                         name="method" 
                         value="GET" 
                         checked={method==='GET'} 
-                        onChange={onMethodChange}/>
+                        onChange={onMethodChange}
+                        />
                     <span>GET</span>
                 </label>
                 <label className={styles.radioLabel}>       
