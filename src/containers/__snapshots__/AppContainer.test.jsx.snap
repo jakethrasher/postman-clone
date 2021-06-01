@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppContainer should render a list of requests made 1`] = `
+<ul
+  aria-label="requests"
+>
+  <li>
+    <span>
+      GET
+       
+    </span>
+    <span>
+      https://thesimpsonsquoteapi.glitch.me/quotes
+    </span>
+  </li>
+</ul>
+`;

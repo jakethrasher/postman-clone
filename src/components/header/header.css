@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.headerContainer{
+    border-bottom: 2px solid orange;
+    margin-bottom: 1.4em;
+}
+.headerText{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom:1rem;
+    margin-top: 1rem;
+}

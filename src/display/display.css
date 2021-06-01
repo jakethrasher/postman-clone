@@ -1,0 +1,12 @@
+.responseContainer{
+    padding-left:1rem;
+    padding-right:1rem;
+    width: 36rem;
+    height:50vh;
+    border:1px solid  rgb(133, 133, 133);
+    word-break: break-all;
+    overflow-y: scroll;
+}
+.response{
+    white-space: pre-wrap;
+}
